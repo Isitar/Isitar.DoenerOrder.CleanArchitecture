@@ -1,0 +1,2 @@
+# DoenerOrder Clean Architecture
+This project is an implementation of my doener order proejct following the [Clean Architecture](https://github.com/jasontaylordev/NorthwindTraders/blob/master/Docs/Slides.pdf) guidelines.

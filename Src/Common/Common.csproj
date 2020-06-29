@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>Isitar.DoenerOrder.CleanArchitecture.Common</RootNamespace>
+        <AssemblyName>Isitar.DoenerOrder.CleanArchitecture.Common</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\Resources.resx">
+        <Generator>PublicResXFileGenerator</Generator>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NodaTime" Version="2.4.7" />
+    </ItemGroup>
+
+</Project>
